@@ -43,7 +43,7 @@ public class HttpThrrad extends Thread{
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        webView.loadData(sb.toString(),"",null);
+                        webView.loadData(sb.toString(),"",null);//hgu
                     }
                 });
 
